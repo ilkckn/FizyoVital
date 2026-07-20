@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "startpage": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "treatments": "Behandlungsbereiche",
+    "contact": "Kommunikation",
+    "appointment": "Termin buchen",
+    "sub-links": {
+      "manual-therapy": "Manuelle Therapie",
+      "sports-rehabilitation": "Sportrehabilitation",
+      "neurological-physiotherapy": "Neurologische Physiotherapie",
+      "orthopedic-rehabilitation": "Orthopädische Rehabilitation"
+    },
+    "mobile-appointment": "Termin buchen"
+  },
+  "landing": {
+    "tag": "Physiotherapie & Rehabilitation",
+    "main-header": {
+      "title1": "Die Kraft der Bewegung",
+      "title2": "Wiederentdecken"
+    },
+    "description": "Gewinnen Sie Ihre Gesundheit zurück mit unserem Expertenteam aus Physiotherapeuten und individuell abgestimmten Behandlungsansätzen. Moderne Techniken und eine herzliche, fürsorgliche Atmosphäre.",
+    "btns": {
+      "btn1": "Jetzt starten",
+      "btn2": "Unsere Dienstleistungen"
+    },
+    "cta": {
+      "cta1": "Jahre Erfahrung",
+      "cta2": "Glückliche Patienten",
+      "cta3": "Erfolgsrate"
+    },
+    "hero-right": {
+      "box-middle": {
+        "header": "Individuelle Betreuung",
+        "text": "Auf Sie zugeschnittene Behandlungspläne."
+      },
+      "box-bottom": {
+        "header": "4,9/5 Patientenbewertung"
+      },
+      "box-top": {
+        "header": "Zertifizierter Spezialist"
+      }
+    }
+  }
+}

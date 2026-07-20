@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "startpage": "Anasayfa",
+    "services": "Hizmetler",
+    "about": "Hakkında",
+    "treatments": "Tedavi Alanları",
+    "contact": "İletişim",
+    "appointment": "Randevu Al",
+    "sub-links": {
+      "manual-therapy": "Elle Terapi",
+      "sports-rehabilitation": "Spor Terapi",
+      "neurological-physiotherapy": "Nörolojik Fizyoterapi",
+      "orthopedic-rehabilitation": "Ortopedik Terapi"
+    },
+    "mobile-appointment": "Randevu Al"
+  },
+  "landing": {
+    "tag": "Fizyoterapi & Rehabilitasyon",
+    "main-header": {
+      "title1": "Hareketin Gücünü",
+      "title2": "Yeniden Keşfedin"
+    },
+    "description": "Uzman fizyoterapist kadromuzla, bireye özel tedavi yaklaşımlarıyla sağlığınıza kavuşun. Modern teknikler ve samimi bir bakım deneyimi.",
+    "btns": {
+      "btn1": "Hemen Başlayın",
+      "btn2": "Hizmetlerimiz"
+    },
+    "cta": {
+      "cta1": "Yıl Deneyim",
+      "cta2": "Mutlu Hasta",
+      "cta3": "Başarı Oranı"
+    },
+    "hero-right": {
+      "box-middle": {
+        "header": "Kişiye Özel Bakım",
+        "text": "Size özel tedavi planları"
+      },
+      "box-bottom": {
+        "header": "4.9/5 Hasta Puanı"
+      },
+      "box-top": {
+        "header": "Sertifikalı Uzman"
+      }
+    }
+  }
+}

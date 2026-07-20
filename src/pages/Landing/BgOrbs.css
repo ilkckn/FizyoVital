@@ -1,0 +1,80 @@
+.bg-orbs {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+
+  .hero__orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.35;
+  }
+
+  .hero__orb--1 {
+    width: 500px;
+    height: 500px;
+    background: oklch(85% 0.08 170);
+    top: -10%;
+    right: -5%;
+  }
+
+  .hero__orb--2 {
+    width: 350px;
+    height: 350px;
+    background: oklch(88% 0.06 45);
+    bottom: 5%;
+    left: -8%;
+  }
+
+  .hero__orb--3 {
+    width: 200px;
+    height: 200px;
+    background: oklch(82% 0.1 200);
+    top: 40%;
+    right: 25%;
+  }
+}
+
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  .bg-orbs {
+    .hero__orb {
+      filter: blur(60px);
+    }
+    .hero__orb--1 {
+      width: 380px;
+      height: 380px;
+    }
+    .hero__orb--2 {
+      width: 260px;
+      height: 260px;
+    }
+    .hero__orb--3 {
+      width: 160px;
+      height: 160px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-orbs {
+    .hero__orb {
+      filter: blur(45px);
+      opacity: 0.3;
+    }
+    .hero__orb--1 {
+      width: 260px;
+      height: 260px;
+    }
+    .hero__orb--2 {
+      width: 200px;
+      height: 200px;
+    }
+    .hero__orb--3 {
+      width: 120px;
+      height: 120px;
+    }
+  }
+}

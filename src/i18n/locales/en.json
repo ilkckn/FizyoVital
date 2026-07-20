@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "startpage": "Home",
+    "services": "Services",
+    "about": "About",
+    "treatments": "Treatments",
+    "contact": "Contact",
+    "appointment": "Appointment",
+    "sub-links": {
+      "manual-therapy": "Manual Therapy",
+      "sports-rehabilitation": "Sports Rehabilitation",
+      "neurological-physiotherapy": "Neurological Physiotherapy",
+      "orthopedic-rehabilitation": "Orthopedic Rehabilitation"
+    },
+    "mobile-appointment": "Appointment"
+  },
+  "landing": {
+    "tag": "Physiotherapy & Rehabilitation",
+    "main-header": {
+      "title1": "The Power of Movement",
+      "title2": "Rediscover"
+    },
+    "description": "Regain your health with our team of expert physiotherapists and personalized treatment approaches. Modern techniques and a warm, caring experience.",
+    "btns": {
+      "btn1": "Get Started Right Away",
+      "btn2": "Our Services"
+    },
+    "cta": {
+      "cta1": "Years of Experience",
+      "cta2": "Happy Patients",
+      "cta3": "Success Rate"
+    },
+    "hero-right": {
+      "box-middle": {
+        "header": "Personalized Care",
+        "text": "Personalized treatment plans for you"
+      },
+      "box-bottom": {
+        "header": "4.9/5 Patient Rating"
+      },
+      "box-top": {
+        "header": "Certified Specialist"
+      }
+    }
+  }
+}
