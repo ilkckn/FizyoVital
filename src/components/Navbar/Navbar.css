@@ -347,7 +347,8 @@
     .container {
       nav {
         .mobile-menu.open {
-          width: 70%;
+          width: 80%;
+          padding-left: 4rem;
 
           .language-switcher {
             margin-bottom: 0.5rem;
@@ -388,29 +389,18 @@
   .navbar {
     .container {
       nav {
-        .appointment-mobile-language {
-          .appointment-btn {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 375px) {
-  .navbar {
-    .container {
-      nav {
         .mobile-menu.open {
-          width: 70%;
+          width: 100%;
           padding-top: 5rem;
+          padding-inline: 4rem;
 
           .language-switcher {
             margin-bottom: 0.5rem;
           }
 
           & > ul {
+            justify-content: center;
+            align-items: center;
             & > li {
               & > a {
                 font-size: 1.8rem;
@@ -418,12 +408,17 @@
             }
 
             .mobile-sub-menu {
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+
               .mobile-sub-links {
+                align-items: center;
                 gap: 0.5rem;
                 & > li {
                   & > a {
                     font-size: 1.4rem;
-                    letter-spacing: .5px;
+                    letter-spacing: 0.5px;
                   }
                 }
               }
