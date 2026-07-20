@@ -8,6 +8,7 @@ import Treatments from "./pages/Treatments/Treatments";
 import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
+import Appointment from "./pages/Appointment/Appointment";
 import ManualTherapy from "./pages/ManualTherapy/ManualTherapy";
 import SportsRehabilitation from "./pages/SportsRehabilitation/SportsRehabilitation";
 import NeurologicalPhysiotherapy from "./pages/NeurologicalPhysiotherapy/NeurologicalPhysiotherapy";
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/treatments" element={<Treatments />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/appointment" element={<Appointment />} />
           <Route path="/services/manual-therapy" element={<ManualTherapy />} />
           <Route path="/services/sports-rehabilitation" element={<SportsRehabilitation />} />
           <Route path="/services/neurological-physiotherapy" element={<NeurologicalPhysiotherapy />} />
