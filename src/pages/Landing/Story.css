@@ -1,5 +1,6 @@
 .story {
   width: 100%;
+  border-bottom: 1px solid var(--border);
 
   .container {
     width: 100%;
