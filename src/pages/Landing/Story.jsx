@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Story = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();  
+  const navigate = useNavigate();
 
   return (
     <section className="story">
@@ -55,7 +55,9 @@ const Story = () => {
               </div>
             </div>
             <div className="story-btn">
-              <button onClick={() => navigate("/contact")}>{t("landing.story.button")}</button>
+              <button onClick={() => navigate("/contact")}>
+                {t("landing.story.button")}
+              </button>
             </div>
           </div>
         </div>
