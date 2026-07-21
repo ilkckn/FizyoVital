@@ -14,9 +14,6 @@
 
     & > p {
       font-family: var(--font-accent);
-      font-size: 1.3rem;
-      font-weight: 500;
-      letter-spacing: 1px;
       color: var(--accent);
     }
   }

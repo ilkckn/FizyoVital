@@ -1,0 +1,318 @@
+.story {
+  width: 100%;
+
+  .container {
+    width: 100%;
+    padding-block: 8rem;
+
+    .content {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4.5rem;
+
+      .content-left {
+        width: 100%;
+        position: relative;
+
+        .image {
+          width: 100%;
+          height: 80rem;
+          object-fit: cover;
+          object-position: center;
+
+          & > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 3rem;
+            corner-shape: round;
+          }
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: -2rem;
+          left: -2rem;
+          width: 15rem;
+          height: 15rem;
+          border-radius: 3rem;
+          background-color: var(--accent-soft);
+          z-index: -1;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -2rem;
+          right: -2rem;
+          width: 15rem;
+          height: 15rem;
+          border-radius: 3rem;
+          background-color: var(--accent-warm-soft);
+          z-index: -1;
+        }
+      }
+
+      .content-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-block: 2rem;
+
+        .tag {
+          width: 100%;
+          padding-inline: 2.5rem;
+          padding-block: 0.6rem;
+          background-color: var(--accent-warm-soft);
+          border-radius: 3rem;
+          corner-shape: round;
+
+          & > p {
+            font-family: var(--font-body);
+            font-weight: 400;
+            color: var(--accent-warm);
+          }
+        }
+
+        .header {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          margin-block: 2rem;
+          padding-left: 1.5rem;
+
+          & > h2 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: clamp(2.5rem, 4vw, 3.5rem);
+            line-height: 3.9rem;
+            letter-spacing: -0.5px;
+          }
+
+          & > p {
+            font-family: var(--font-body);
+            font-weight: 300;
+            margin-top: 1rem;
+          }
+        }
+
+        .stories {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          padding-left: 1.5rem;
+
+          .story1,
+          .story2,
+          .story3 {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .icon {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              & > svg {
+                font-size: 3.5rem;
+              }
+            }
+
+            .content {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+
+              & > h4 {
+                font-family: var(--font-body);
+                font-weight: 600;
+                letter-spacing: 0.5px;
+              }
+
+              & > p {
+                font-weight: 300;
+                letter-spacing: 0.5px;
+                line-height: 2.5rem;
+              }
+            }
+          }
+
+          .story1 {
+            .icon {
+              & > svg {
+                color: var(--accent);
+              }
+            }
+          }
+
+          .story2 {
+            .icon {
+              & > svg {
+                color: var(--accent-warm);
+              }
+            }
+          }
+
+          .story3 {
+            .icon {
+              & > svg {
+                color: var(--accent-cool);
+              }
+            }
+          }
+        }
+
+        .story-btn {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          margin-top: 2.5rem;
+
+          & > button {
+            width: 100%;
+            padding-block: 1.5rem;
+            padding-inline: 3.5rem;
+            background-color: var(--bg-white);
+            color: var(--font-text-black);
+            border: 1px solid var(--border);
+            border-radius: 3rem;
+            corner-shape: round;
+            font-family: var(--font-body);
+            font-weight: 500;
+            font-size: 1.4rem;
+            text-align: start;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              border-color: var(--accent);
+              color: var(--accent);
+              transform: translateY(-0.3rem);
+              box-shadow: var(--shadow-sm);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet — tek sütuna geç */
+@media (max-width: 1024px) {
+  .story .container {
+    padding-block: 6rem;
+
+    .content {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+
+      .content-left {
+        .image {
+          height: 50rem;
+        }
+      }
+
+      .content-right {
+        padding-block: 0;
+      }
+    }
+  }
+}
+
+/* Telefon */
+@media (max-width: 768px) {
+  .story .container {
+    padding-block: 5rem;
+
+    .content {
+      gap: 2.5rem;
+
+      .content-left {
+        /* köşe süsleri mobilde taşmasın diye küçült */
+        &::before,
+        &::after {
+          width: 9rem;
+          height: 9rem;
+        }
+
+        .image {
+          height: 42rem;
+        }
+      }
+
+      .content-right {
+        .header {
+          padding-left: 0;
+          margin-block: 1.5rem;
+
+          & > h2 {
+            line-height: 1.15;
+          }
+        }
+
+        .stories {
+          padding-left: 0;
+
+          .content > p {
+            line-height: 1.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Küçük telefon */
+@media (max-width: 480px) {
+  .story .container {
+    padding-block: 4rem;
+
+    .content {
+      .content-left {
+        &::before,
+        &::after {
+          width: 6rem;
+          height: 6rem;
+          top: -1rem;
+          left: -1rem;
+        }
+
+        &::after {
+          top: auto;
+          left: auto;
+          bottom: -1rem;
+          right: -1rem;
+        }
+
+        .image {
+          height: 36rem;
+        }
+      }
+
+      .content-right {
+        .stories .story1 .icon > svg,
+        .stories .story2 .icon > svg,
+        .stories .story3 .icon > svg {
+          font-size: 3rem;
+        }
+
+        .story-btn > button {
+          padding-block: 1.3rem;
+          padding-inline: 2.5rem;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}

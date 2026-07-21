@@ -4,6 +4,7 @@
   --navbar-height: 8rem;
   
   --bg: oklch(97.5% 0.008 160);
+  --bg-white: oklch(98.5% 0 0); 
   --surface: oklch(100% 0 0);
   --fg: oklch(20% 0.02 200);
   --muted: oklch(48% 0.025 180);
@@ -14,6 +15,8 @@
   --accent-soft: oklch(92% 0.04 175);
   --accent-warm: oklch(58% 0.11 40);
   --accent-warm-soft: oklch(93% 0.035 40);
+  --accent-cool: oklch(55% 0.12 250);
+  --accent-cool-soft: oklch(92% 0.04 250);
   --hover: oklch(95% 0 0);
 
   --font-display: "Cormorant Garamond", "Georgia", serif;
@@ -105,12 +108,16 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1.25rem, 2vw, 1.5rem);
-  font-family: var(--font-accent);
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
 }
 
+h4 {
+  font-size: clamp(1.45rem, 2vw, 1.6rem);
+}
+
+
 p {
-  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
   max-width: 60ch;
   line-height: 1.65;
 }

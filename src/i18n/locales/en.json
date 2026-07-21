@@ -41,6 +41,95 @@
       "box-top": {
         "header": "Certified Specialist"
       }
+    },
+    "services": {
+      "tag": "What We Do",
+      "main-header": {
+        "title1": "Our Services",
+        "description": "Comprehensive physiotherapy solutions for your health. Each treatment is tailored to your individual needs."
+      },
+      "boxes": {
+        "box1": {
+          "title": "Manual Therapy",
+          "description": "We resolve joint and muscle problems with precise hands-on techniques. Achieving pain-free, effective movement."
+        },
+        "box2": {
+          "title": "Sports Rehabilitation",
+          "description": "A fast and safe return from sports injuries. Individual programs to restore your athletic performance."
+        },
+        "box3": {
+          "title": "Neurological Physiotherapy",
+          "description": "Expert rehabilitation for stroke, MS and nervous system disorders. Regain your daily living skills."
+        },
+        "box4": {
+          "title": "Orthopedic Rehabilitation",
+          "description": "Comprehensive rehabilitation programs for post-surgery recovery, fractures and joint problems."
+        },
+        "box5": {
+          "title": "Posture Analysis",
+          "description": "We detect postural imbalances with advanced assessment tools. Lasting results through personalized corrective exercises."
+        },
+        "box6": {
+          "title": "Chiropractic Adjustment",
+          "description": "Professional adjustments and mobility work to protect spinal health. We eliminate the sources of pain."
+        }
+      }
+    },
+    "story": {
+      "tag": "Our Story",
+      "header": {
+        "title1": "We're With You",
+        "title2": "On Your Path to Recovery",
+        "description": "With over 12 years of experience, we've touched the lives of thousands of patients. We don't just apply treatments we understand each person's own story and plan the most suitable recovery journey together."
+      },
+      "stories": {
+        "title1": "Individual Approach",
+        "description1": "Every patient is unique. We design your treatment plans specifically for you.",
+        "title2": "Modern Techniques",
+        "description2": "We integrate the latest scientific approaches into our treatment processes.",
+        "title3": "Lasting Results",
+        "description3": "Not temporary fixes, but long-term recovery is what we aim for."
+      },
+      "button": "Get in Touch"
+    },
+    "treatments": {
+      "tag": "Our Areas of Expertise",
+      "header": "Treatment Areas",
+      "description": "Specialized treatment protocols for every part of the body.",
+      "consult": "Can't find what you're looking for? ",
+      "consultButton": "Consult, Let's Help You",
+      "title1": "Neck & Shoulder",
+      "tag1": [
+        "Cervical Hernia",
+        "Frozen Shoulder",
+        "Cervical Straightening",
+        "Nerve Compression"
+      ],
+      "description1": "We restore mobility through manual therapy and exercise programs.",
+      "title2": "Lower Back & Hip",
+      "tag2": [
+        "Lumbar Hernia",
+        "Lower Back Pain",
+        "Hip Osteoarthritis",
+        "Sciatica"
+      ],
+      "description2": "Comprehensive care from pain management to functional recovery.",
+      "title3": "Knee & Ankle",
+      "tag3": [
+        "Knee Ligament Injury",
+        "Meniscus",
+        "Achilles Tendon",
+        "Heel Spur"
+      ],
+      "description3": "Post-surgical rehabilitation and sports injury treatment.",
+      "title4": "Hand & Wrist",
+      "tag4": [
+        "Carpal Tunnel",
+        "Tendon Stiffness",
+        "Fracture Recovery",
+        "Dupuytren"
+      ],
+      "description4": "Restoring fine motor skills and everyday functional ability."
     }
   }
 }

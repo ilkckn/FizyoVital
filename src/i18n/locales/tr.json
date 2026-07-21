@@ -41,6 +41,90 @@
       "box-top": {
         "header": "Sertifikalı Uzman"
       }
+    },
+    "services": {
+      "tag": "Neler Yapıyoruz",
+      "main-header": {
+        "title1": "Hizmetlerimiz",
+        "description": "Sağlığınız için kapsamlı fizyoterapi çözümleri. Her tedavi, bireysel ihtiyaçlarınıza göre özelleştirilir."
+      },
+      "boxes": {
+        "box1": {
+          "title": "Manuel Terapi",
+          "description": "Ellerle uygulanan hassas tekniklerle eklem ve kas sorunlarını çözüyoruz. Ağrısız, etkili bir hareket kazanımı sağlıyoruz."
+        },
+        "box2": {
+          "title": "Spor Rehabilitasyonu",
+          "description": "Spor yaralanmalarından hızlı ve güvenli dönüş. Atletik performansınızı geri kazandıracak bireysel programlar."
+        },
+        "box3": {
+          "title": "Nörolojik Fizyoterapi",
+          "description": "Felç, MS ve sinir sistemi hastalıklarında uzman rehabilitasyon. Günlük yaşam becerilerinizi yeniden kazanın."
+        },
+        "box4": {
+          "title": "Ortopedik Rehabilitasyon",
+          "description": "Ameliyat sonrası iyileşme, kırık ve eklem problemlerinde kapsamlı rehabilitasyon programları."
+        },
+        "box5": {
+          "title": "Postür Analizi",
+          "description": "Gelişmiş değerlendirme araçlarıyla duruş bozukluklarını tespit ediyoruz. Kişiye özel düzeltme egzersizleriyle kalıcı sonuçlar."
+        },
+        "box6": {
+          "title": "Kiropraktik Düzenleme",
+          "description": "Omurga sağlığını korumak için profesyonel düzeltme ve mobilite çalışmaları. Ağrı kaynaklarını ortadan kaldırıyoruz."
+        }
+      }
+    },
+    "story": {
+      "tag": "Hikayemiz",
+      "header": {
+        "title1": "İyileşme Yolculuğunuzda",
+        "title2": "Yanınızdayız",
+        "description": "12 yılı aşkın deneyimimizle, binlerce hastanın hayatına dokunduk. Biz sadece tedavi uygulamıyoruz her bireyin kendi hikayesini anlayarak, ona en uygun iyileşme yolculuğunu birlikte planlıyoruz."
+      },
+      "stories": {
+        "title1": "Bireysel Yaklaşım",
+        "description1": "Her hasta benzersizdir. Tedavi planlarınızı size özel tasarlıyoruz.",
+        "title2": "Modern Teknikler",
+        "description2": "En güncel bilimsel yaklaşımları tedavi süreçlerimize entegre ediyoruz.",
+        "title3": "Kalıcı sonuçlar",
+        "description3": "Geçici çözümler değil, uzun vadeli iyileşme hedefliyoruz."
+      },
+      "button": "Bize Ulaşın"
+    },
+    "treatments": {
+      "tag": "Uzmanlık Alanlarımız",
+      "header": "Tedavi Bölgeleri",
+      "description": "Vücüdun her bölgesi için özel tedavi protokolleri.",
+      "consult": "Aradığınız tedaviyi bulamadınız mı? ",
+      "consultButton": "Danışın, Size Yardımcı Olalım",
+      "title1": "Boyun & Omuz",
+      "tag1": [
+        "Boyun Fıtığı",
+        "Omuz Tutulması",
+        "Boyun Düzleşmesi",
+        "Sinir Sıkışması"
+      ],
+      "description1": "Manuel terapi ve egzersiz programları ile mobilite kazandırıyoruz.",
+      "title2": "Bel & Kalça",
+      "tag2": ["Bel Fıtığı", "Bel Ağrısı", "Kalça Kireçlenmesi", "Siyatik"],
+      "description2": "Ağrı yönetiminden fonksiyonel iyileşmeye kadar kapsamlı bakım.",
+      "title3": "Diz & Ayak Bileği",
+      "tag3": [
+        "Diz Bağ Yaralanması",
+        "Menisküs",
+        "Aşil Tendonu",
+        "Topuk Dikeni"
+      ],
+      "description3": "Cerrahi sonrası rehabilitasyon ve spor yaralanması tedavisi.",
+      "title4": "El & Bilek",
+      "tag4": [
+        "Karpal Tünel",
+        "Tendon Tutulması",
+        "Kırık İyileşmesi",
+        "Dupuytren"
+      ],
+      "description4": "İnce motor becerileri ve günlük kullanım yetisini geri kazandırma."
     }
   }
 }

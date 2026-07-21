@@ -41,6 +41,95 @@
       "box-top": {
         "header": "Zertifizierter Spezialist"
       }
+    },
+    "services": {
+      "tag": "Dienstleistungen",
+      "main-header": {
+        "title1": "Unsere Dienstleistungen",
+        "description": "Umfassende Physiotherapielösungen für Ihre Gesundheit. Jede Behandlung wird individuell auf Ihre Bedürfnisse abgestimmt."
+      },
+      "boxes": {
+        "box1": {
+          "title": "Manuelle Therapie",
+          "description": "Mit präzisen manuellen Techniken lösen wir Gelenk- und Muskelprobleme. Für schmerzfreie, effektive Bewegung."
+        },
+        "box2": {
+          "title": "Sportrehabilitation",
+          "description": "Eine schnelle und sichere Rückkehr nach Sportverletzungen. Individuelle Programme zur Wiederherstellung Ihrer sportlichen Leistung."
+        },
+        "box3": {
+          "title": "Neurologische Physiotherapie",
+          "description": "Fachkundige Rehabilitation bei Schlaganfall, MS und Erkrankungen des Nervensystems. Gewinnen Sie Ihre Alltagsfähigkeiten zurück."
+        },
+        "box4": {
+          "title": "Orthopädische Rehabilitation",
+          "description": "Umfassende Rehabilitationsprogramme für die Genesung nach Operationen, bei Knochenbrüchen und Gelenkproblemen."
+        },
+        "box5": {
+          "title": "Haltungsanalyse",
+          "description": "Mit modernen Diagnoseverfahren erkennen wir Haltungsschäden. Dauerhafte Ergebnisse durch individuelle Korrekturübungen."
+        },
+        "box6": {
+          "title": "Chiropraktische Behandlung",
+          "description": "Professionelle Justierungen und Mobilitätsarbeit zum Schutz der Wirbelsäulengesundheit. Wir beseitigen die Schmerzquellen."
+        }
+      }
+    },
+    "story": {
+      "tag": "Unsere Geschichte",
+      "header": {
+        "title1": "Wir begleiten Sie",
+        "title2": "auf Ihrem Weg zur Genesung",
+        "description": "Mit über 12 Jahren Erfahrung haben wir das Leben tausender Patienten berührt. Wir wenden nicht einfach nur Behandlungen an wir verstehen die Geschichte jedes Einzelnen und planen gemeinsam den passendsten Weg zur Genesung."
+      },
+      "stories": {
+        "title1": "Individueller Ansatz",
+        "description1": "Jeder Patient ist einzigartig. Wir gestalten Ihre Behandlungspläne ganz persönlich für Sie.",
+        "title2": "Moderne Techniken",
+        "description2": "Wir integrieren die neuesten wissenschaftlichen Ansätze in unsere Behandlungsprozesse.",
+        "title3": "Dauerhafte Ergebnisse",
+        "description3": "Keine vorübergehenden Lösungen, sondern langfristige Genesung ist unser Ziel."
+      },
+      "button": "Kontakt aufnehmen"
+    },
+    "treatments": {
+      "tag": "Unsere Fachbereiche",
+      "header": "Behandlungsbereiche",
+      "description": "Spezielle Behandlungsprotokolle für jede Körperregion.",
+      "consult": "Kannst du nicht was finden was du suchst? ",
+      "consultButton": "Beraten, Lass uns helfen",
+      "title1": "Nacken & Schulter",
+      "tag1": [
+        "Halswirbelbruch",
+        "Schultersteife",
+        "HWS-Streckung",
+        "Nervenkompression"
+      ],
+      "description1": "Wir stellen die Mobilität durch manuelle Therapie und Übungsprogramme wieder her.",
+      "title2": "Rücken & Hüfte",
+      "tag2": [
+        "Bandscheibenvorfall",
+        "Rückenschmerzen",
+        "Hüftarthrose",
+        "Ischias"
+      ],
+      "description2": "Umfassende Versorgung von der Schmerzbehandlung bis zur funktionellen Genesung.",
+      "title3": "Knie & Sprunggelenk",
+      "tag3": [
+        "Knie-Bandverletzung",
+        "Meniskus",
+        "Achillessehne",
+        "Fersensporn"
+      ],
+      "description3": "Rehabilitation nach Operationen und Behandlung von Sportverletzungen.",
+      "title4": "Hand & Handgelenk",
+      "tag4": [
+        "Karpaltunnelsyndrom",
+        "Sehnensteife",
+        "Bruchheilung",
+        "Dupuytren"
+      ],
+      "description4": "Wiederherstellung der Feinmotorik und alltäglichen Funktionsfähigkeit."
     }
   }
 }
