@@ -11,9 +11,9 @@
   --border: oklch(90% 0 0);
   --border-dark: oklch(70% 0 0);
   --border-greenish: oklch(90% 0.012 170);
-  --accent: oklch(52% 0.14 175);
+  --accent: oklch(42% 0.15 175);
   --accent-soft: oklch(92% 0.04 175);
-  --accent-warm: oklch(58% 0.11 40);
+  --accent-warm: oklch(45% 0.13 40);
   --accent-warm-soft: oklch(93% 0.035 40);
   --accent-cool: oklch(55% 0.12 250);
   --accent-cool-soft: oklch(92% 0.04 250);

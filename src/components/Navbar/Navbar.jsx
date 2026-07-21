@@ -115,7 +115,7 @@ const Navbar = () => {
           {isOpen && (
             <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
               <div className="language-switcher">
-                <LanguageSwitcher isOpen={isOpen} setIsOpen={setIsOpen} />
+                <LanguageSwitcher menuOpen={isOpen} setMenuOpen={setIsOpen} />
               </div>
               <ul>
                 <li>

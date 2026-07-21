@@ -3,13 +3,15 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { GrLanguage } from "react-icons/gr";
 
-function LanguageSwitcher({ isOpen, setIsOpen }) {
+function LanguageSwitcher({ setMenuOpen }) {
   const { i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
 
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);
     setIsOpen(false);
+    setMenuOpen(false);
     setCurrentLanguage(language);
   };
 

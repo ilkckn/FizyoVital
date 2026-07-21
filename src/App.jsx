@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import Landing from "./pages/Landing/Landing";
 import Treatments from "./pages/Treatments/Treatments";
 import About from "./pages/About/About";
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+      <Footer />
     </>
   )
 }
